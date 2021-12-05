@@ -56,4 +56,4 @@ except OSError as e:
   print("Error: %s - %s." % (e.filename, e.strerror)
 
 #Now restart the app and launch again
-subprocess.call(["C:\Users\darien.taylor\AppData\Local\Microsoft\Teams\Update.exe --processStart Teams.exe"])
+subprocess.call(["C:\Users\%username%\AppData\Local\Microsoft\Teams\Update.exe --processStart Teams.exe"])
